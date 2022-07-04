@@ -1,0 +1,35 @@
+body {
+
+}
+.logo
+{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+}
+.logo-web-word {
+   color: #2196F3;
+}
+.logo-studio-word {
+    color: #000000;
+}
+.site-nav {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+}
+.studio {
+    color: #212121;
+}
+.portfolio {
+    color: #2196F3;;
+}
+.contacts {
+    color: #212121;
+}
