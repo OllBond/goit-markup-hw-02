@@ -9,7 +9,10 @@ body {
     font-size: 26px;
     line-height: 31px;
     text-decoration: none;
-    
+}
+.logo:hover {
+    text-decoration-line: underline;
+    color: #2196F3;
 }
 .logo-web-word {
    color: #2196F3;
@@ -24,6 +27,7 @@ body {
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
+        text-decoration: none;
 }
 .studio {
     color: #212121;
@@ -33,4 +37,7 @@ body {
 }
 .contacts {
     color: #212121;
+}
+.site-nav:hover {
+text-decoration: underline;
 }
