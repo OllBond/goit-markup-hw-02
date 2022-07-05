@@ -1,7 +1,4 @@
-body {
-
-}
-.logo 
+.logo  
 {
     font-family: 'Raleway';
     font-style: normal;
@@ -20,24 +17,36 @@ body {
 .logo-studio-word {
     color: #000000;
 }
-.site-nav {
-    font-family: 'Roboto';
+.site-nav a{
+        font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
         text-decoration: none;
-}
+        }
+.site-nav a:hover{
+text-decoration: underline;
+color: #2196F3;
+}   
 .studio {
     color: #212121;
 }
 .portfolio {
-    color: #2196F3;;
+    color: #2196F3;
 }
 .contacts {
     color: #212121;
 }
-.site-nav:hover {
-text-decoration: underline;
+.adrress a {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
 }
+
