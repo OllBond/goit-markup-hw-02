@@ -1,52 +1,73 @@
-.logo  
-{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    text-decoration: none;
+:root {
+    --primary-text-color:#757575
+    --title-text-color:#212121
+    --accent-text-color:#2196F3
 }
+body {
+ background-color: #FFFFFF;
+ color: #757575;
+}
+.list {
+    list-style: none;
+}
+/*The color of the main text #757575*/
+/*Secondary text color #000000*/
+/*White color #FFFFFF8*/
+/*White color with transparency rgba(255, 255, 255, 0.6)*/
+/*Acсent color #2196F3*/
+/* Secondary color background #2F303A */
+/*header*/
+/* Logo */
 .logo:hover {
-    text-decoration-line: underline;
-    color: #2196F3;
+color: #2196F3;
 }
-.logo-web-word {
+
+.logo .logo-web-word {
    color: #2196F3;
 }
 .logo-studio-word {
     color: #000000;
+} 
+/* Site-nav */
+.site-nav a {
+    color: #212121
 }
-.site-nav a{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        text-decoration: none;
-        }
-.site-nav a:hover{
-text-decoration: underline;
-color: #2196F3;
-}   
-.studio {
-    color: #212121;
-}
-.portfolio {
+.site-nav a:hover,
+.sate-nav a:focus {
     color: #2196F3;
 }
-.contacts {
+.studio-word {
+color: #2196F3;
+}
+/* Contacts */
+.our-contacts .list:hover,
+.our-contacts .list:focus
+ {
+color: #2196F3;
+}
+.link-email {
+color: #2196F3;
+}
+.link-tel {
+    color: #757575;
+}
+/* Main content */
+/* Hero */
+.hero-title {
+    color: #FFFFFF;
+}
+/* Sections */
+.section-title {
     color: #212121;
 }
-.adrress a {
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #757575;
-    text-decoration: none;
+/* Button*/
+.button {
+    background-color: #2196F3;
+    color:#212121
 }
-
+.button.order {
+    color: #FFFFFF;
+}
+.button.all {
+color: #FFFFFF;
+}
