@@ -7,16 +7,14 @@ body {
  background-color: #FFFFFF;
  color: #757575;
  font-family:'Roboto', sans-serif;
+ font-size: 14px;
+ line-height: 1.71;
+ letter-spacing: 0.03em;
 }
 .list {
     list-style: none;
+
 }
-/*The color of the main text #757575*/
-/*Secondary text color #000000*/
-/*White color #FFFFFF8*/
-/*White color with transparency rgba(255, 255, 255, 0.6)*/
-/*Acсent color var(--accent-text-color)*/
-/* Secondary color background #2F303A */
 /*header*/
 /* Logo */
 .logo:hover {
@@ -26,7 +24,6 @@ font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.19;
 }
-
 .logo .logo-web-word {
    color: var(--accent-text-color);
 }
@@ -36,12 +33,10 @@ font-family: 'Raleway';
 /* Site-nav */
 .site-nav a {
     color: #212121
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
 }
 .site-nav a:hover,
 .sate-nav a:focus {
@@ -55,9 +50,11 @@ color: var(--accent-text-color);
 }
 /* Contacts */
 .our-contacts .list:hover,
-.our-contacts .list:focus
- {
+.our-contacts .list:focus{
 color: var(--accent-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14; 
 }
 .link-email {
 color: var(--accent-text-color);
@@ -68,11 +65,31 @@ color: var(--accent-text-color);
 /* Main content */
 /* Hero */
 .hero-title {
-    color: #FFFFFF;
+background: #2F303A;
+color: #FFFFFF;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
 }
 /* Sections */
-.section-title {
-    color: #212121;
+.section .section-title {
+background: #E5E5E5;
+color: #212121;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+.section-title .text {
+font-weight: 400;
+}
+.section .our team {
+background: #F5F4FA;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
 }
 /* Button*/
 .button:hover,
@@ -80,10 +97,35 @@ color: var(--accent-text-color);
  {
     background-color:var(--accent-text-color);
     color:#212121
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
 }
 .button.order {
     color: #FFFFFF;
 }
 .button.all {
 color: #FFFFFF;
+}
+/* Footer */
+.address {
+background-color: #2F303A;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+}
+.location{
+color: #FFFFFF;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+.email.tel {
+color: rgba(255, 255, 255, 0.6);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
 }
