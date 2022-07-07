@@ -17,12 +17,12 @@ body {
 }
 /*header*/
 /* Logo */
-.logo:hover {
-color: var(--accent-text-color);
-font-family: 'Raleway';
+.logo {
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 .logo .logo-web-word {
    color: var(--accent-text-color);
@@ -32,36 +32,48 @@ font-family: 'Raleway';
 } 
 /* Site-nav */
 .site-nav a {
-    color: #212121
+    color: #212121;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-}
-.site-nav a:hover,
-.sate-nav a:focus {
-    color: var(--accent-text-color);
+    text-decoration: none;
 }
 .sate-nav .link.current {
 color: var(--accent-text-color);
+text-decoration: none;
 }
 .studio-word {
 color: var(--accent-text-color);
+text-decoration: none;
+}
+.portfolio {
+    color: var(--accent-text-color);
 }
 /* Contacts */
-.our-contacts .list:hover,
-.our-contacts .list:focus{
-color: var(--accent-text-color);
+.our-contacts .list {
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14; 
+line-height: 1.14;
+text-decoration: none; 
 }
-.link-email {
+.link-email-header:hover,
+.link-email-header:focus{
+color: var(--accent-text-color);} 
+
+.link-tel-header:hover,
+.link-tel-header:focus {
+color: var(--accent-text-color);} 
+
+.link-email-header {
 color: var(--accent-text-color);
+text-decoration: none;
 }
-.link-tel {
+.link-tel-header {
     color: #757575;
+    text-decoration: none;
 }
+
 /* Main content */
 /* Hero */
 .hero-title {
@@ -84,13 +96,20 @@ text-transform: uppercase;
 .section-title .text {
 font-weight: 400;
 }
-.section .our team {
+.our-team .list {
 background: #F5F4FA;
 width: 1600px;
 height: 648px;
 left: 0px;
 top: 1449px;
 }
+h2 {
+    display: none;
+}
+.examples {
+    display: none;   
+}
+
 /* Button*/
 .button:hover,
 .button:focus
@@ -115,17 +134,29 @@ width: 1600px;
 height: 252px;
 left: 0px;
 top: 2097px;
+text-decoration: none;
 }
-.location{
+.logo-studio-footer {
+    color: #FFFFFF;
+}
+.location {
 color: #FFFFFF;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
+text-decoration: none;
 }
-.email.tel {
+.link-email-footer,.link-tel-footer {
 color: rgba(255, 255, 255, 0.6);
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
+text-decoration: none;
+}
+.link-email-footer:hover,
+.link-email-footer:focus,
+.link-tel-footer:hover,
+.link-tel-footer:focus{
+    color: var(--accent-text-color);
 }
