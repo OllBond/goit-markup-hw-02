@@ -1,11 +1,12 @@
 :root {
-    --primary-text-color:#757575
-    --title-text-color:#212121
-    --accent-text-color:#2196F3
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-text-color:#2196F3;
 }
 body {
  background-color: #FFFFFF;
  color: #757575;
+ font-family:'Roboto', sans-serif;
 }
 .list {
     list-style: none;
@@ -14,16 +15,20 @@ body {
 /*Secondary text color #000000*/
 /*White color #FFFFFF8*/
 /*White color with transparency rgba(255, 255, 255, 0.6)*/
-/*Acсent color #2196F3*/
+/*Acсent color var(--accent-text-color)*/
 /* Secondary color background #2F303A */
 /*header*/
 /* Logo */
 .logo:hover {
-color: #2196F3;
+color: var(--accent-text-color);
+font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 .logo .logo-web-word {
-   color: #2196F3;
+   color: var(--accent-text-color);
 }
 .logo-studio-word {
     color: #000000;
@@ -31,22 +36,31 @@ color: #2196F3;
 /* Site-nav */
 .site-nav a {
     color: #212121
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .site-nav a:hover,
 .sate-nav a:focus {
-    color: #2196F3;
+    color: var(--accent-text-color);
+}
+.sate-nav .link.current {
+color: var(--accent-text-color);
 }
 .studio-word {
-color: #2196F3;
+color: var(--accent-text-color);
 }
 /* Contacts */
 .our-contacts .list:hover,
 .our-contacts .list:focus
  {
-color: #2196F3;
+color: var(--accent-text-color);
 }
 .link-email {
-color: #2196F3;
+color: var(--accent-text-color);
 }
 .link-tel {
     color: #757575;
@@ -61,8 +75,10 @@ color: #2196F3;
     color: #212121;
 }
 /* Button*/
-.button {
-    background-color: #2196F3;
+.button:hover,
+.button:focus
+ {
+    background-color:var(--accent-text-color);
     color:#212121
 }
 .button.order {
