@@ -32,17 +32,20 @@ body {
 }
 /* Site-nav */
 .site-nav a {
-  color: #212121;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
 }
+.site-nav .site-nav-link {
+  color: #212121;
+}
+.site-nav .active-link,
 .site-nav a:hover,
 .site-nav a:focus {
   color: var(--accent-text-color);
 }
+
 /* Contacts */
 .our-contacts {
   color: #757575;
@@ -106,15 +109,12 @@ body {
 }
 .button {
   color: #212121;
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   cursor: pointer;
 }
-.button.order {
-  color: #ffffff;
-}
+.button.order,
 .button.all {
   color: #ffffff;
 }
