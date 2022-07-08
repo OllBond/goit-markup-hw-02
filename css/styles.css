@@ -95,13 +95,10 @@ body {
   left: 0px;
   top: 1449px;
 }
-h2 {
-  display: none;
-}
+.our-advantages,
 .examples {
   display: none;
 }
-
 /* Button*/
 .button:hover,
 .button:focus {
