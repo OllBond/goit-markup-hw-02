@@ -37,7 +37,7 @@ body {
   text-decoration: none;
 }
 .site-nav .site-nav-link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .site-nav .active-link,
 .site-nav a:hover,
@@ -47,7 +47,7 @@ body {
 
 /* Contacts */
 .our-contacts {
-  color: #757575;
+  color: var(--primary-text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -65,13 +65,13 @@ body {
 }
 .link-email-header-contacts,
 .link-tel-header-contacts {
-  color: #757575;
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 /* Main content */
 /* Hero */
 .hero-title {
-  color: #ffffff;
+  color: var(--background-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -92,7 +92,7 @@ body {
   overflow: hidden;
 }
 .section .section-title {
-  color: #212121;
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -105,13 +105,13 @@ body {
 }
 .section-title-our-work,
 .section-title-our-team {
-  color: #212121;
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
 }
 .section-title-names {
-  color: #212121;
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -127,7 +127,7 @@ body {
   line-height: 1.87;
 }
 .section-title-page-second {
-  color: #212121;
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -148,7 +148,7 @@ body {
 }
 .button-order {
   background: var(--accent-text-color);
-  color: #ffffff;
+  color: var(--background-color);
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
@@ -171,10 +171,10 @@ body {
   background-color: #2f303a;
 }
 .logo-studio-footer {
-  color: #ffffff;
+  color: var(--background-color);
 }
 .location {
-  color: #ffffff;
+  color: var(--background-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
