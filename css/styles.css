@@ -2,14 +2,13 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
+  --background-color: #ffffff;
 }
 body {
-  background-color: #ffffff;
-  color: #757575;
-  font-style: normal;
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .list {
@@ -72,35 +71,71 @@ body {
 /* Main content */
 /* Hero */
 .hero-title {
-  background: #2f303a;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  text-transform: uppercase;
 }
 /* Sections */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .section .section-title {
-  background: #e5e5e5;
   color: #212121;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-transform: uppercase;
 }
 .section-title .text {
+  background: #2f303a;
   font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.section-title-our-work {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.section-title-our-team {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.section-title-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
 }
 .our-team .list {
-  background: #f5f4fa;
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
 }
-.our-advantages,
-.examples {
-  display: none;
+.our-projects {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.section-title-page-second {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 /* Button*/
 .button:hover,
@@ -108,24 +143,28 @@ body {
   background-color: var(--accent-text-color);
 }
 .button {
-  color: #212121;
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
   cursor: pointer;
 }
-.button.order,
-.button.all {
+.button-order {
+  background: #2196f3;
   color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 /* Footer */
 .address {
   background-color: #2f303a;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
-  text-decoration: none;
 }
 .logo-studio-footer {
   color: #ffffff;
