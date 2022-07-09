@@ -3,6 +3,11 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --background-color: #ffffff;
+  --background-color-second: #2f303a;
+  --background-color-btn: #f5f4fa;
+  --color-btn-portfolio: #212121;
+  --color-tel-email: rgba(255, 255, 255, 0.6);
+  --color-logo: #000000;
 }
 body {
   background-color: var(--background-color);
@@ -27,7 +32,7 @@ body {
   color: var(--accent-text-color);
 }
 .logo-studio-word {
-  color: #000000;
+  color: var(--color-logo);
 }
 /* Site-nav */
 .site-nav a {
@@ -98,7 +103,7 @@ body {
   line-height: 1.14;
 }
 .section-title .text {
-  background: #2f303a;
+  background-color: var(--background-color-second);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -134,9 +139,14 @@ body {
   letter-spacing: 0.06em;
 }
 /* Button*/
-.button:hover,
-.button:focus {
+.button-page-second .button:hover,
+.button-page-second .button:focus {
   background-color: var(--accent-text-color);
+  color: var(--background-color);
+}
+.button-page-second .button {
+  background-color: var(--background-color-btn);
+  color: var(--color-btn-portfolio);
 }
 .button {
   font-family: 'Roboto';
@@ -147,7 +157,7 @@ body {
   cursor: pointer;
 }
 .button-order {
-  background: var(--accent-text-color);
+  background-color: var(--accent-text-color);
   color: var(--background-color);
   font-family: 'Roboto';
   font-weight: 700;
@@ -158,17 +168,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
-.button-all {
-  background-color: var(--accent-text-color);
-  color: var(--background-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-}
 /* Footer */
 .address {
-  background-color: #2f303a;
+  background-color: var(--background-color-second);
 }
 .logo-studio-footer {
   color: var(--background-color);
@@ -182,7 +184,7 @@ body {
 }
 .link-email-footer-contacts,
 .link-tel-footer-contacts {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-tel-email);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
