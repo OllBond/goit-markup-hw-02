@@ -103,12 +103,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
-.section-title-our-work {
-  color: #212121;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-}
+.section-title-our-work,
 .section-title-our-team {
   color: #212121;
   font-weight: 700;
@@ -116,10 +111,10 @@ body {
   line-height: 1.16;
 }
 .section-title-names {
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  color: #212121;
 }
 .our-team .list {
   font-weight: 400;
