@@ -12,6 +12,7 @@
   --color-portfolio-projects: #eeeeee;
   --background-color-main: #e5e5e5;
 }
+/* ========================Body============================== */
 body {
   background-color: var(--background-color);
   color: var(--primary-text-color);
@@ -105,8 +106,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
 }
-.section-title .text {
-  background-color: var(--background-color-second);
+.text {
+  color: var(--primary-text-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
