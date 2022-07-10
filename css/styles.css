@@ -8,6 +8,9 @@
   --color-btn-portfolio: #212121;
   --color-tel-email: rgba(255, 255, 255, 0.6);
   --color-logo: #000000;
+  --button-order-hover: #188ce8;
+  --color-portfolio-projects: #eeeeee;
+  --background-color-main: #e5e5e5;
 }
 body {
   background-color: var(--background-color);
@@ -19,7 +22,7 @@ body {
 .list {
   list-style: none;
 }
-/*header*/
+/*=========================Header===========================*/
 /* Logo */
 .logo {
   font-family: 'Raleway';
@@ -73,8 +76,8 @@ body {
   color: var(--primary-text-color);
   text-decoration: none;
 }
-/* Main content */
-/* Hero */
+/* ===========================Main content==================================*/
+/* ===========================Hero =========================================*/
 .hero-title {
   color: var(--background-color);
   font-weight: 900;
@@ -83,7 +86,7 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
-/* Sections */
+/* ================================Section=========================== */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -96,7 +99,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.section .section-title {
+.section-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -138,7 +141,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-/* Button*/
+/* ==============================Button============================*/
 .button-page-second .button:hover,
 .button-page-second .button:focus {
   background-color: var(--accent-text-color);
@@ -159,7 +162,7 @@ body {
 .button-order {
   background-color: var(--accent-text-color);
   color: var(--background-color);
-  font-family: 'Roboto';
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -168,7 +171,13 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
-/* Footer */
+.button-order:hover,
+.button-order:focus {
+  background-color: var(--button-order-hover);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/* ================================Footer============================== */
 .address {
   background-color: var(--background-color-second);
 }
